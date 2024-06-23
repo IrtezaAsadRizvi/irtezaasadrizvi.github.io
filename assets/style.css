@@ -678,12 +678,16 @@ box-shadow:  10px 10px 20px #0a0a0a,
     padding: 16px 16px 26px 16px;
 }
 .projects-area .project-item .project-img {
-    border-radius: 30px;
+    border-radius: 25px;
     margin-bottom: 13px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: inset 2px 2px 5px #0d0d0d, inset -2px -2px 5px #222222;
 }
 .projects-area .project-item .project-img img {
     display: block;
     border-radius: 30px;
+    opacity: 0;
 }
 .projects-area .project-item .project-info p {
     color: #BCBCBC;
