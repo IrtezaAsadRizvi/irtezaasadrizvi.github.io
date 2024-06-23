@@ -1683,7 +1683,10 @@ box-shadow:  10px 10px 20px #0a0a0a,
     .contact-area .contact-infos {
         padding: 10px 40px;
     }
-
+    .projects-area .project-item .project-img, .projects-area .project-item .project-img img {
+        min-height: none;
+        height: auto;
+    }
 }
 @media (max-width: 585px) {
     .about-area .about-me-box {
