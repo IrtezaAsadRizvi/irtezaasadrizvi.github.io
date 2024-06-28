@@ -116,7 +116,15 @@
                             <img decoding="async" src="./assets/icon2.png" alt="Star" class="star-icon">
                             <h2>Let’s work <span>together.</span></h2>
                             <div lang="en-US" dir="ltr">
-                                <form  id="ContactForm" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                                <form  id="ContactForm" 
+                                    aria-label="Contact form" 
+                                    novalidate="novalidate"
+                                    action="https://api.web3forms.com/submit" 
+                                    method="POST" 
+                                    data-status="init">
+                                    <input type="hidden" name="access_key" value="9a7a3209-df37-44e6-af76-988488877d24">
+                                    <input type="hidden" name="apikey" value="9a7a3209-df37-44e6-af76-988488877d24">
+                                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
                                     <div class="alert alert-success messenger-box-contact__msg"
                                         style="display: none" role="alert">
                                         <p>Your message was sent successfully.
@@ -156,7 +164,10 @@
                                             name="message"></textarea>
                                     </div>
                                     <div class="input-group">
-                                        <button class="theme-btn form-submit-button" type="submit" name="submit" disabled data-tooltip="Still working on the Form, Skype me instead!" id="submit">Send Message</button>
+                                        <button class="theme-btn form-submit-button"
+                                            type="submit"
+                                            name="submit"
+                                            id="submit">Send Message</button>
                                     </div>
                                 </form>
                             </div>

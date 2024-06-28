@@ -7,8 +7,3 @@
         AOS.init({ duration: 1500, once: true })
     });
 })(jQuery);
-
-document.getElementById('ContactForm').onsubmit = function(event){
-    event.preventDefault();
-    console.log(event.target)
-};

@@ -1564,7 +1564,7 @@ box-shadow:  10px 10px 20px #0a0a0a,
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1066px) {
     .header-area {
         padding: 20px 0;
     }
@@ -1680,8 +1680,8 @@ box-shadow:  10px 10px 20px #0a0a0a,
     .blog-sidebar {
         margin-top: 50px;
     }
-    .contact-area .contact-infos {
-        padding: 10px 40px;
+    .contact-infos {
+        padding: 10px 40px !important;
     }
     .projects-area .project-item .project-img, .projects-area .project-item .project-img img {
         min-height: 0;
