@@ -25,8 +25,11 @@
     <link rel="preload stylesheet" id="icon-css" href="./assets/iconoir.css" media="all">
     <link rel="preload stylesheet" id="bootstrap-css" href="./assets/bootstrap.min.css" media="all">
     <link rel="preload stylesheet" id="aos-css" href="./assets/aos.css" media="all">
+    <link rel="preload stylesheet" id="slick-css" href="./assets/slick.min.css" media="all">
+    <link rel="preload stylesheet" id="slick-css" href="./assets/slick-theme.min.css" media="all">
     <link rel="preload stylesheet" id="style-css" href="./assets/style.css" media="all">
     <script src="./assets/jquery.min.js" id="jquery-core-js"></script>
+    <script src="./assets/slick.min.js" id="slick"></script>
 </head>
 <body>
     <div id="preloader" class="preloader off">
@@ -60,184 +63,520 @@
 
         <!-- Projects -->
         <section class="projects-area">
-            <div class="container">
-                <h1 class=" aos-init aos-animate text-center" data-aos="">
-                    <img decoding="async" src="./assets/star-2.png" alt="Star">
-                    DEMO OF WORK
-                    <img decoding="async" src="./assets/star-2.png" alt="Star">
-                </h1>
+            <div class="container-fluid">
+                <h4 class="aos-init aos-animate text-center" data-aos="">
+                    <img decoding="async" style="height: 30px; width: 30px;" src="./assets/star-2.png" alt="Star">
+                    Web Development
+                    <img decoding="async" style="height: 30px; width: 30px;" src="./assets/star-2.png" alt="Star">
+                </h4>
                 <p class="text-center" style="margin-bottom: 40px; margin-top: 20px;">[p.s. These are just demos]</p>
                 <br>
                 <div class="row">
-                    <div data-aos="zoom-in" class="col-md-6 aos-animate">
-                        <div class="project-item shadow-box">
-                            <a class="overlay-link" href="https://irtezaasadrizvi.github.io/credit-card-landing-demo/card" target="_blank"></a>
-                            <div class="project-img" style="background-image: url('./assets/credit-card-demo.png');">
-                                <img decoding="async" src="./assets/credit-card-demo.png" alt="">
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="project-info">
-                                    <p>HTML/CSS/JS/GSAP</p>
-                                    <h2>Credit Card Landing Demo</h2>
+                    <div id="WebDesignDemos">
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://irtezaasadrizvi.github.io/credit-card-landing-demo/card" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('./assets/credit-card-demo.png');">
+                                    <img decoding="async" src="./assets/credit-card-demo.png" alt="">
                                 </div>
-                                <a href="#" class="project-btn">
-                                    <img decoding="async" src="./assets/icon.svg" alt="Star">
-                                </a>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>HTML/CSS/JS/GSAP</p>
+                                        <h2>Credit Card Landing Demo</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://react-glass-dashboard.web.app/" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('./assets/react-admin.png');">
+                                    <img decoding="async" src="./assets/react-admin.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>REACT/Material UI</p>
+                                        <h2>Admin Dashboard(desktop)</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://irtezaasadrizvi.github.io/mims-bangladesh-web/" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('./assets/mims-bd.png');">
+                                    <img decoding="async" src="./assets/mims-bd.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>JQUERY/HTML/CSS</p>
+                                        <h2>Mims Bangladesh</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://irtezaasadrizvi.github.io/game-marketing-agency-demo/" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('./assets/game-seo-demo.png');">
+                                    <img decoding="async" src="./assets/game-seo-demo.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>THREE JS/HTML/CSS</p>
+                                        <h2>Game SEO Landing Demo</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://blushrose-portfolio.web.app/" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('./assets/blushrose-portfolio.png');">
+                                    <img decoding="async" src="./assets/blushrose-portfolio.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>HTML/CSS/JS</p>
+                                        <h2>BlushRose Personal Portfolio</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://irtezaasadrizvi.github.io/3D-Book-Reader/" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('./assets/3d-book-reader.png');">
+                                    <img decoding="async" src="./assets/3d-book-reader.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>JQUERY/HTML/CSS</p>
+                                        <h2>3D PDF Reader</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://irtezaasadrizvi.github.io/square-crop/" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('./assets/square-crop.png');">
+                                    <img decoding="async" src="./assets/square-crop.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>JQUERY/HTML/CSS</p>
+                                        <h2>Image Cropper Tool</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://irtezaasadrizvi.github.io/NagarPestControl/" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('./assets/nagar-pest-control.png');">
+                                    <img decoding="async" src="./assets/nagar-pest-control.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>ANGULAR JS/HTML/CSS</p>
+                                        <h2>Pest Control Website Demo</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://irtezaasadrizvi.github.io/RetaurantWebsiteTemplate/" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('./assets/restaurant-demo.png');">
+                                    <img decoding="async" src="./assets/restaurant-demo.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>JQUERY/HTML/CSS</p>
+                                        <h2>Restaurant Website Demo</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://irtezaasadrizvi.github.io/kibo-bottles/" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('./assets/kibo-bottle-demo.png');">
+                                    <img decoding="async" src="./assets/kibo-bottle-demo.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>THREE JS/SPLINE/CSS</p>
+                                        <h2>Gym Bottle Store Landing</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" class="col-md-6 aos-animate">
-                        <div class="project-item shadow-box">
-                            <a class="overlay-link" href="https://react-glass-dashboard.web.app/" target="_blank"></a>
-                            <div class="project-img" style="background-image: url('./assets/react-admin.png');">
-                                <img decoding="async" src="./assets/react-admin.png" alt="">
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="project-info">
-                                    <p>REACT/Material UI</p>
-                                    <h2>Admin Dashboard(desktop)</h2>
+                    <div class="slider-arrows">
+                        <button class="web-left">
+                            <i class="iconoir-arrow-left"></i>
+                        </button>
+                        <button class="web-right">
+                            <i class="iconoir-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <br>
+                <hr>
+                <br>
+                <h4 class="aos-init aos-animate text-center" data-aos="">
+                    <img decoding="async" style="height: 30px; width: 30px;" src="./assets/star-2.png" alt="Star">
+                    Contributions to the Dev community
+                    <img decoding="async" style="height: 30px; width: 30px;" src="./assets/star-2.png" alt="Star">
+                </h4>
+                <p></p>
+                <br>
+                <div class="row">
+                    <div id="Packages">
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://www.npmjs.com/package/node-express-rate-limiter" target="_blank"></a>                                
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>Node JS/Express/REDIS/JOI</p>
+                                        <h2>node-express-rate-limiter</h2>
+                                        <p class="description">An Express.js middleware that helps manage API rate limiting with customizable rules, logging, and IP whitelisting.</p>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
                                 </div>
-                                <a href="#" class="project-btn">
-                                    <img decoding="async" src="./assets/icon.svg" alt="Star">
-                                </a>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://www.npmjs.com/package/vue-slider-input" target="_blank"></a>                                
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>Vue/Vite/TS</p>
+                                        <h2>vue-slider-input</h2>
+                                        <p class="description">VueSliderInput is a highly customizable and user-friendly slider component for Vue 3</p>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://www.npmjs.com/package/enviroconfig" target="_blank"></a>                                
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>Node JS/dotenv/JOI/TS</p>
+                                        <h2>enviroconfig</h2>
+                                        <p class="description">A flexible and easy-to-use Node.js package designed to manage environment configurations.</p>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://www.npmjs.com/package/vue3-counter" target="_blank"></a>                                
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>Vue/Vite/TS</p>
+                                        <h2>vue3-counter</h2>
+                                        <p class="description">A highly customised numeric counter component for Vue 3 Applications.</p>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://github.com/IrtezaAsadRizvi/complete-tooltip" target="_blank"></a>                                
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>Node JS/Puppeteer</p>
+                                        <h2>complete-tooltip</h2>
+                                        <p class="description">A complete tooltip library for all your tooltip needs (under development).</p>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://github.com/IrtezaAsadRizvi/neumorph-css" target="_blank"></a>                                
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>Node JS/Puppeteer</p>
+                                        <h2>scraper</h2>
+                                        <p class="description">Web based scraper tool and API (under development).</p>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://github.com/IrtezaAsadRizvi/neumorph-css" target="_blank"></a>                                
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <p>GULP/SASS/CSS</p>
+                                        <h2>neumorph-css</h2>
+                                        <p class="description">A neumorph CSS framework (under development).</p>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" class="col-md-6 aos-animate">
-                        <div class="project-item shadow-box">
-                            <a class="overlay-link" href="https://irtezaasadrizvi.github.io/mims-bangladesh-web/" target="_blank"></a>
-                            <div class="project-img" style="background-image: url('./assets/mims-bd.png');">
-                                <img decoding="async" src="./assets/mims-bd.png" alt="">
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="project-info">
-                                    <p>JQUERY/HTML/CSS</p>
-                                    <h2>Mims Bangladesh</h2>
+                    <div class="slider-arrows">
+                        <button class="package-left">
+                            <i class="iconoir-arrow-left"></i>
+                        </button>
+                        <button class="package-right">
+                            <i class="iconoir-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <h4 class="aos-init aos-animate text-center" data-aos="">
+                    <img decoding="async" style="height: 30px; width: 30px;" src="./assets/star-2.png" alt="Star">
+                    Some of my Writings
+                    <img decoding="async" style="height: 30px; width: 30px;" src="./assets/star-2.png" alt="Star">
+                </h4>
+                <br>
+                <div class="row">
+                    <div id="Articles">
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://medium.com/devops-dev/understanding-package-json-c1f32915020d" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('https://miro.medium.com/v2/resize:fit:720/format:webp/1*y3_laTISV9WLCZqDV2gH7w.png');">
+                                    <img decoding="async" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*y3_laTISV9WLCZqDV2gH7w.png" alt="">
                                 </div>
-                                <a href="#" class="project-btn">
-                                    <img decoding="async" src="./assets/icon.svg" alt="Star">
-                                </a>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <h2>Understanding package.json</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://medium.com/devops-dev/get-100-pagescore-for-nuxt-application-e8b387b2ddf1" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('https://miro.medium.com/v2/resize:fit:720/format:webp/1*WQznxv3_fkcpNlUmO48xIQ.jpeg');">
+                                    <img decoding="async" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*WQznxv3_fkcpNlUmO48xIQ.jpeg" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <h2>Get 100 PageScore for Nuxt application</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://medium.com/devops-dev/all-about-ec2-5ae94e9e453c" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('https://miro.medium.com/v2/resize:fit:720/format:webp/1*3cOMOLgwzDunMsVUUVt3kw.jpeg');">
+                                    <img decoding="async" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*3cOMOLgwzDunMsVUUVt3kw.jpeg" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <h2>AWS EC2 101 | EC2 Concepts</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://blog.devops.dev/get-started-with-dockerfile-2ec50dd7e607" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('https://miro.medium.com/v2/resize:fit:720/format:webp/1*txcrQMktevxwGm9yrq9XaQ.jpeg');">
+                                    <img decoding="async" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*txcrQMktevxwGm9yrq9XaQ.jpeg" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <h2>Get started with Dockerfile</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://blog.devops.dev/play-arcade-on-docker-container-f9794a783d3c" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('https://miro.medium.com/v2/resize:fit:720/format:webp/1*4i9oYhAtPoSv91E7QU6qMQ.jpeg');">
+                                    <img decoding="async" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*4i9oYhAtPoSv91E7QU6qMQ.jpeg" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <h2>Play Arcade on a docker container</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://blog.devops.dev/get-started-with-docker-e063a23f7b7b" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('https://i.ibb.co/tQbB18g/get-started-with-docker-e063a23f7b7b.jpg');">
+                                    <img decoding="async" src="https://i.ibb.co/tQbB18g/get-started-with-docker-e063a23f7b7b.jpg" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <h2>Get started with Docker</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://irtezaasadrizvi.medium.com/boost-agility-of-your-agile-c2b8de64bdd5" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('https://i.ibb.co/d5M4w4D/boost-agility-of-your-agile-c2b8de64bdd5.jpg');">
+                                    <img decoding="async" src="https://i.ibb.co/d5M4w4D/boost-agility-of-your-agile-c2b8de64bdd5.jpg" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <h2>Boost Agility of your Agile</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://blog.devops.dev/optimize-your-javascript-code-for-seo-b854b3ff0493" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('https://miro.medium.com/v2/resize:fit:720/format:webp/1*e9SCY6WbrJnUGeSP_OjO5A.png');">
+                                    <img decoding="async" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*e9SCY6WbrJnUGeSP_OjO5A.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <h2>Optimize your JavaScript code for SEO</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://irtezaasadrizvi.medium.com/will-ai-replace-content-writers-9fe6f0385821" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('https://i.ibb.co/GWLNdv5/will-ai-replace-content-writers-9fe6f0385821.jpg');">
+                                    <img decoding="async" src="https://i.ibb.co/GWLNdv5/will-ai-replace-content-writers-9fe6f0385821.jpg" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <h2>Will AI replace content writers?</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://irtezaasadrizvi.medium.com/ipcofig-in-macos-linux-get-macos-ip-address-37a608c09b49" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('https://miro.medium.com/v2/resize:fit:720/format:webp/1*jNtHzm1N7qV9wlZPYyGvyw.jpeg');">
+                                    <img decoding="async" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*jNtHzm1N7qV9wlZPYyGvyw.jpeg" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <h2>ipcofig in macOS, Linux | Get macOS</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" class="demo-slide-item aos-animate">
+                            <div class="project-item shadow-box">
+                                <a class="overlay-link" href="https://irtezaasadrizvi.medium.com/%E0%A6%AD%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%8F%E0%A6%A8-%E0%A6%95%E0%A6%BF-%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8B-%E0%A6%93-%E0%A6%95%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-108298b69eb4" target="_blank"></a>
+                                <div class="project-img" style="background-image: url('https://miro.medium.com/v2/resize:fit:720/format:webp/1*y_28sZUSGQZLuvdup-K5CQ.jpeg');">
+                                    <img decoding="async" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*y_28sZUSGQZLuvdup-K5CQ.jpeg" alt="">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="project-info">
+                                        <h2>ভিপিএন কি? কেনো? ও কিভাবে?</h2>
+                                    </div>
+                                    <a href="#" class="project-btn">
+                                        <img decoding="async" src="./assets/icon.svg" alt="Star">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" class="col-md-6 aos-animate">
-                        <div class="project-item shadow-box">
-                            <a class="overlay-link" href="https://irtezaasadrizvi.github.io/game-marketing-agency-demo/" target="_blank"></a>
-                            <div class="project-img" style="background-image: url('./assets/game-seo-demo.png');">
-                                <img decoding="async" src="./assets/game-seo-demo.png" alt="">
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="project-info">
-                                    <p>THREE JS/HTML/CSS</p>
-                                    <h2>Game SEO Landing Demo</h2>
-                                </div>
-                                <a href="#" class="project-btn">
-                                    <img decoding="async" src="./assets/icon.svg" alt="Star">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" class="col-md-6 aos-animate">
-                        <div class="project-item shadow-box">
-                            <a class="overlay-link" href="https://blushrose-portfolio.web.app/" target="_blank"></a>
-                            <div class="project-img" style="background-image: url('./assets/blushrose-portfolio.png');">
-                                <img decoding="async" src="./assets/blushrose-portfolio.png" alt="">
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="project-info">
-                                    <p>HTML/CSS/JS</p>
-                                    <h2>BlushRose Personal Portfolio</h2>
-                                </div>
-                                <a href="#" class="project-btn">
-                                    <img decoding="async" src="./assets/icon.svg" alt="Star">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" class="col-md-6 aos-animate">
-                        <div class="project-item shadow-box">
-                            <a class="overlay-link" href="https://irtezaasadrizvi.github.io/3D-Book-Reader/" target="_blank"></a>
-                            <div class="project-img" style="background-image: url('./assets/3d-book-reader.png');">
-                                <img decoding="async" src="./assets/3d-book-reader.png" alt="">
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="project-info">
-                                    <p>JQUERY/HTML/CSS</p>
-                                    <h2>3D PDF Reader</h2>
-                                </div>
-                                <a href="#" class="project-btn">
-                                    <img decoding="async" src="./assets/icon.svg" alt="Star">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" class="col-md-6 aos-animate">
-                        <div class="project-item shadow-box">
-                            <a class="overlay-link" href="https://irtezaasadrizvi.github.io/square-crop/" target="_blank"></a>
-                            <div class="project-img" style="background-image: url('./assets/square-crop.png');">
-                                <img decoding="async" src="./assets/square-crop.png" alt="">
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="project-info">
-                                    <p>JQUERY/HTML/CSS</p>
-                                    <h2>Image Cropper Tool</h2>
-                                </div>
-                                <a href="#" class="project-btn">
-                                    <img decoding="async" src="./assets/icon.svg" alt="Star">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" class="col-md-6 aos-animate">
-                        <div class="project-item shadow-box">
-                            <a class="overlay-link" href="https://irtezaasadrizvi.github.io/NagarPestControl/" target="_blank"></a>
-                            <div class="project-img" style="background-image: url('./assets/nagar-pest-control.png');">
-                                <img decoding="async" src="./assets/nagar-pest-control.png" alt="">
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="project-info">
-                                    <p>ANGULAR JS/HTML/CSS</p>
-                                    <h2>Pest Control Website Demo</h2>
-                                </div>
-                                <a href="#" class="project-btn">
-                                    <img decoding="async" src="./assets/icon.svg" alt="Star">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" class="col-md-6 aos-animate">
-                        <div class="project-item shadow-box">
-                            <a class="overlay-link" href="https://irtezaasadrizvi.github.io/RetaurantWebsiteTemplate/" target="_blank"></a>
-                            <div class="project-img" style="background-image: url('./assets/restaurant-demo.png');">
-                                <img decoding="async" src="./assets/restaurant-demo.png" alt="">
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="project-info">
-                                    <p>JQUERY/HTML/CSS</p>
-                                    <h2>Restaurant Website Demo</h2>
-                                </div>
-                                <a href="#" class="project-btn">
-                                    <img decoding="async" src="./assets/icon.svg" alt="Star">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" class="col-md-6 aos-animate">
-                        <div class="project-item shadow-box">
-                            <a class="overlay-link" href="https://irtezaasadrizvi.github.io/kibo-bottles/" target="_blank"></a>
-                            <div class="project-img" style="background-image: url('./assets/kibo-bottle-demo.png');">
-                                <img decoding="async" src="./assets/kibo-bottle-demo.png" alt="">
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="project-info">
-                                    <p>THREE JS/SPLINE/CSS</p>
-                                    <h2>Gym Bottle Store Landing</h2>
-                                </div>
-                                <a href="#" class="project-btn">
-                                    <img decoding="async" src="./assets/icon.svg" alt="Star">
-                                </a>
-                            </div>
-                        </div>
+                    <div class="slider-arrows">
+                        <button class="writing-left">
+                            <i class="iconoir-arrow-left"></i>
+                        </button>
+                        <button class="writing-right">
+                            <i class="iconoir-arrow-right"></i>
+                        </button>
                     </div>
                 </div>
             </div>
