@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /_next/
+Disallow: /api/
+
+Host: https://irtezaasadrizvi.github.io
+Sitemap: https://irtezaasadrizvi.github.io/sitemap.xml
