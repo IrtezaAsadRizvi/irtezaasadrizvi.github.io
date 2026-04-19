@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Irteza Asad Rizvi — Writing</title>
+    <link>https://irtezaasadrizvi.github.io/writing</link>
+    <atom:link href="https://irtezaasadrizvi.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Technical deep-dives on Node.js internals, AI and LLM engineering, adversarial machine learning, DevOps, and web security.</description>
+    <language>en-us</language>
+    <copyright>© 2026 Irteza Asad Rizvi</copyright>
+    <lastBuildDate>Wed, 01 Apr 2026 12:00:00 GMT</lastBuildDate>
+    <managingEditor>noreply@irtezaasadrizvi.github.io (Irteza Asad Rizvi)</managingEditor>
+    <webMaster>noreply@irtezaasadrizvi.github.io (Irteza Asad Rizvi)</webMaster>
+    <generator>Next.js</generator>
+    <image>
+      <url>https://irtezaasadrizvi.github.io/logo.png</url>
+      <title>Irteza Asad Rizvi — Writing</title>
+      <link>https://irtezaasadrizvi.github.io/writing</link>
+    </image>
+    <item>
+      <title>Breaking my own spam classifier: a hands-on tour of adversarial examples</title>
+      <link>https://irtezaasadrizvi.medium.com/breaking-my-own-spam-classifier-a-hands-on-tour-of-adversarial-examples-efe79ae21ece</link>
+      <guid isPermaLink="true">https://irtezaasadrizvi.medium.com/breaking-my-own-spam-classifier-a-hands-on-tour-of-adversarial-examples-efe79ae21ece</guid>
+      <pubDate>Wed, 01 Apr 2026 12:00:00 GMT</pubDate>
+      <category>AI</category>
+      <description>Training a spam classifier, then systematically breaking it with perturbed inputs — a hands-on walkthrough of adversarial examples in NLP.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>How Node.js Handles 10,000 Requests</title>
+      <link>https://blog.devops.dev/how-node-js-handles-10000-requests-61911c846d45</link>
+      <guid isPermaLink="true">https://blog.devops.dev/how-node-js-handles-10000-requests-61911c846d45</guid>
+      <pubDate>Sun, 01 Mar 2026 12:00:00 GMT</pubDate>
+      <category>Engineering</category>
+      <description>Exploring event-driven architecture, the event loop, and why non-blocking I/O outperforms thread-per-request models.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>How to Deploy a Basic MERN App on a Linux Server/VPS</title>
+      <link>https://blog.devops.dev/how-to-deploy-a-basic-mern-app-on-a-linux-server-vps-the-easy-way-2a069c843a30</link>
+      <guid isPermaLink="true">https://blog.devops.dev/how-to-deploy-a-basic-mern-app-on-a-linux-server-vps-the-easy-way-2a069c843a30</guid>
+      <pubDate>Mon, 01 Dec 2025 12:00:00 GMT</pubDate>
+      <category>DevOps</category>
+      <description>Step-by-step deployment with Node 22, PM2, Nginx, HTTPS via Certbot, and automated deployment aliases.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>When Your VPS Gets Hacked: How I Found a Miner Running On Our Server</title>
+      <link>https://blog.cubed.run/when-your-vps-gets-hacked-how-i-found-a-miner-running-on-our-server-65771b3f532c</link>
+      <guid isPermaLink="true">https://blog.cubed.run/when-your-vps-gets-hacked-how-i-found-a-miner-running-on-our-server-65771b3f532c</guid>
+      <pubDate>Mon, 01 Dec 2025 12:00:00 GMT</pubDate>
+      <category>Security</category>
+      <description>A security incident report — detection, forensics, and hardening after finding xmrig on a compromised VPS.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>ipconfig in macOS, Linux | Get macOS IP Address</title>
+      <link>https://blog.devops.dev/ipcofig-in-macos-linux-get-macos-ip-address-37a608c09b49</link>
+      <guid isPermaLink="true">https://blog.devops.dev/ipcofig-in-macos-linux-get-macos-ip-address-37a608c09b49</guid>
+      <pubDate>Sat, 01 Nov 2025 12:00:00 GMT</pubDate>
+      <category>DevOps</category>
+      <description>Quick reference for finding your IP address across macOS and Linux using ifconfig, ip, and related networking commands.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>Turn a Phrase into a Strong Password (and Why It Works)</title>
+      <link>https://blog.cubed.run/turn-a-phrase-into-a-strong-password-and-why-it-works-b0eabdce6273</link>
+      <guid isPermaLink="true">https://blog.cubed.run/turn-a-phrase-into-a-strong-password-and-why-it-works-b0eabdce6273</guid>
+      <pubDate>Wed, 01 Oct 2025 12:00:00 GMT</pubDate>
+      <category>Security</category>
+      <description>Phrase-based password generation combining familiarity with entropy for credentials that are both memorable and secure.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>Your Digital Keys: Why a Strong Password Is Your First Line of Defense</title>
+      <link>https://blog.cubed.run/your-digital-keys-why-a-strong-password-is-your-first-line-of-defense-in-the-cyber-world-64c69d46a334</link>
+      <guid isPermaLink="true">https://blog.cubed.run/your-digital-keys-why-a-strong-password-is-your-first-line-of-defense-in-the-cyber-world-64c69d46a334</guid>
+      <pubDate>Wed, 01 Oct 2025 12:00:00 GMT</pubDate>
+      <category>Security</category>
+      <description>Password security fundamentals — brute-force attacks, dictionary attacks, and supplementary measures like 2FA.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>Inspect an iPhone Safari Tab from Your Mac (The Clean Way)</title>
+      <link>https://blog.cubed.run/inspect-an-iphone-safari-tab-from-your-mac-the-clean-way-26fdc28621e9</link>
+      <guid isPermaLink="true">https://blog.cubed.run/inspect-an-iphone-safari-tab-from-your-mac-the-clean-way-26fdc28621e9</guid>
+      <pubDate>Wed, 01 Oct 2025 12:00:00 GMT</pubDate>
+      <category>Engineering</category>
+      <description>Remote debugging iOS Safari pages using Mac&apos;s Web Inspector — console, elements, network, and breakpoints.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>Dive into V8: How JavaScript Gets Supercharged (and Sometimes Slows Down)</title>
+      <link>https://blog.devops.dev/dive-into-v8-how-javascript-gets-supercharged-and-sometimes-slows-down-a21c3f847fa7</link>
+      <guid isPermaLink="true">https://blog.devops.dev/dive-into-v8-how-javascript-gets-supercharged-and-sometimes-slows-down-a21c3f847fa7</guid>
+      <pubDate>Fri, 01 Aug 2025 12:00:00 GMT</pubDate>
+      <category>Engineering</category>
+      <description>V8 engine internals — parsing, Ignition bytecode, TurboFan compilation, and deoptimization triggers.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>How ChatGPT-4o Works: A Developer&apos;s Dive</title>
+      <link>https://blog.cubed.run/how-chatgpt-4o-works-a-developers-dive-f-168b69c36090</link>
+      <guid isPermaLink="true">https://blog.cubed.run/how-chatgpt-4o-works-a-developers-dive-f-168b69c36090</guid>
+      <pubDate>Sun, 01 Jun 2025 12:00:00 GMT</pubDate>
+      <category>AI</category>
+      <description>GPT-4o&apos;s multimodal capabilities — native training across text, voice, vision, and real-time latency improvements.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>How Image Generation Works in ChatGPT (Without the Magic Wand)</title>
+      <link>https://ai.plainenglish.io/how-image-generation-works-in-chatgpt-without-the-magic-wand-2c5c58f2780a</link>
+      <guid isPermaLink="true">https://ai.plainenglish.io/how-image-generation-works-in-chatgpt-without-the-magic-wand-2c5c58f2780a</guid>
+      <pubDate>Sun, 01 Jun 2025 12:00:00 GMT</pubDate>
+      <category>AI</category>
+      <description>Text-to-image mechanics — diffusion models, text encoding, iterative denoising, and current limitations.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>The Ultimate Guide to Autocomplete: Make Your Forms Smarter</title>
+      <link>https://blog.devops.dev/the-ultimate-guide-to-autocomplete-make-your-forms-smarter-with-zero-effort-30f9d94a895d</link>
+      <guid isPermaLink="true">https://blog.devops.dev/the-ultimate-guide-to-autocomplete-make-your-forms-smarter-with-zero-effort-30f9d94a895d</guid>
+      <pubDate>Thu, 01 May 2025 12:00:00 GMT</pubDate>
+      <category>Engineering</category>
+      <description>Leveraging the HTML autocomplete attribute to build smarter, faster forms with zero extra JavaScript.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>How I Built a Funny Chatbot with ChatGPT and Node.js</title>
+      <link>https://irtezaasadrizvi.medium.com/how-i-built-a-funny-chatbot-with-chatgpt-and-node-js-45afbc9442a3</link>
+      <guid isPermaLink="true">https://irtezaasadrizvi.medium.com/how-i-built-a-funny-chatbot-with-chatgpt-and-node-js-45afbc9442a3</guid>
+      <pubDate>Thu, 01 May 2025 12:00:00 GMT</pubDate>
+      <category>AI</category>
+      <description>Express.js meets OpenAI API — building a personality-driven chatbot with system prompt engineering.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>Play Arcade on a Docker Container</title>
+      <link>https://blog.devops.dev/play-arcade-on-docker-container-f9794a783d3c</link>
+      <guid isPermaLink="true">https://blog.devops.dev/play-arcade-on-docker-container-f9794a783d3c</guid>
+      <pubDate>Fri, 01 Dec 2023 12:00:00 GMT</pubDate>
+      <category>DevOps</category>
+      <description>Running classic arcade games inside a Docker container — a fun intro to containerization and port mapping.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>AWS EC2 101 | EC2 Concepts</title>
+      <link>https://blog.devops.dev/all-about-ec2-5ae94e9e453c</link>
+      <guid isPermaLink="true">https://blog.devops.dev/all-about-ec2-5ae94e9e453c</guid>
+      <pubDate>Wed, 01 Nov 2023 12:00:00 GMT</pubDate>
+      <category>DevOps</category>
+      <description>Core EC2 concepts — instance types, AMIs, security groups, and getting started with AWS compute.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>Get Started with Dockerfile</title>
+      <link>https://blog.devops.dev/get-started-with-dockerfile-2ec50dd7e607</link>
+      <guid isPermaLink="true">https://blog.devops.dev/get-started-with-dockerfile-2ec50dd7e607</guid>
+      <pubDate>Tue, 01 Aug 2023 12:00:00 GMT</pubDate>
+      <category>DevOps</category>
+      <description>A practical guide to writing Dockerfiles — FROM, RUN, COPY, multi-stage builds, and best practices.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>Optimize Your JavaScript Code for SEO</title>
+      <link>https://blog.devops.dev/optimize-your-javascript-code-for-seo-b854b3ff0493</link>
+      <guid isPermaLink="true">https://blog.devops.dev/optimize-your-javascript-code-for-seo-b854b3ff0493</guid>
+      <pubDate>Sat, 01 Apr 2023 12:00:00 GMT</pubDate>
+      <category>Engineering</category>
+      <description>Techniques for making JavaScript-heavy apps search-engine friendly — SSR, lazy loading, and structured data.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
+      <title>Get 100 PageScore for Nuxt Application</title>
+      <link>https://blog.devops.dev/get-100-pagescore-for-nuxt-application-e8b387b2ddf1</link>
+      <guid isPermaLink="true">https://blog.devops.dev/get-100-pagescore-for-nuxt-application-e8b387b2ddf1</guid>
+      <pubDate>Sun, 01 Jan 2023 12:00:00 GMT</pubDate>
+      <category>Engineering</category>
+      <description>Achieving a perfect Lighthouse score in Nuxt — image optimization, code splitting, and performance tuning.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+  </channel>
+</rss>

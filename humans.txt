@@ -1,0 +1,27 @@
+/* TEAM */
+
+Creator: Irteza Asad Rizvi
+Role: Senior Full-Stack & AI Automation Engineer
+Site: https://irtezaasadrizvi.github.io
+GitHub: @IrtezaAsadRizvi
+LinkedIn: in/irtezaasad
+Location: Toronto, Canada
+
+
+/* SITE */
+
+Last update: 2026/04
+Language: English
+Doctype: HTML5
+IDE: VS Code, Vim
+Standards: Semantic HTML, JSON-LD, OpenGraph, RSS 2.0
+
+
+/* TECHNOLOGY */
+
+Framework: Next.js 16 (App Router, static export)
+Language: TypeScript
+Styling: Tailwind CSS 4
+Runtime: React 19
+Hosting: GitHub Pages
+CI/CD: GitHub Actions

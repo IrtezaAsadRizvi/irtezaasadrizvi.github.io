@@ -1,0 +1,8 @@
+# Security contact for irtezaasadrizvi.github.io
+# https://securitytxt.org/
+
+Contact: https://irtezaasadrizvi.github.io/contact
+Contact: https://www.linkedin.com/in/irtezaasad
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://irtezaasadrizvi.github.io/.well-known/security.txt
