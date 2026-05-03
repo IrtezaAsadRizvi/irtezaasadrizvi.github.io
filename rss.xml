@@ -19,6 +19,15 @@
       <link>https://irtezaasadrizvi.github.io/writing</link>
     </image>
     <item>
+      <title>AI-Enabled Web Development: A Practical Field Guide for 2026</title>
+      <link>/writing/ai-enabled-web-development</link>
+      <guid isPermaLink="true">/writing/ai-enabled-web-development</guid>
+      <pubDate>Fri, 01 May 2026 12:00:00 GMT</pubDate>
+      <category>AI</category>
+      <description>What &apos;AI-enabled web development&apos; actually means in 2026 — beyond the hype: LLM agents in your codebase, Claude Code plugins, MCP servers, browser-native ML, and the senior full-stack engineer&apos;s job inside all of it.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
+    <item>
       <title>From Bytes to BPE: A From-Scratch Tour of LLM Tokenization</title>
       <link>https://blog.gopenai.com/from-bytes-to-bpe-a-from-scratch-tour-of-llm-tokenization-a49c70c87c41</link>
       <guid isPermaLink="true">https://blog.gopenai.com/from-bytes-to-bpe-a-from-scratch-tour-of-llm-tokenization-a49c70c87c41</guid>
