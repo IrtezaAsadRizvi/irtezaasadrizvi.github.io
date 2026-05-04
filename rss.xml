@@ -3,7 +3,7 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Irteza Asad Rizvi — Writing</title>
+    <title>Irteza Asad Rizvi - Writing</title>
     <link>https://irtezaasadrizvi.github.io/writing</link>
     <atom:link href="https://irtezaasadrizvi.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <description>Technical deep-dives on Node.js internals, AI and LLM engineering, adversarial machine learning, DevOps, and web security.</description>
@@ -15,16 +15,16 @@
     <generator>Next.js</generator>
     <image>
       <url>https://irtezaasadrizvi.github.io/logo.png</url>
-      <title>Irteza Asad Rizvi — Writing</title>
+      <title>Irteza Asad Rizvi - Writing</title>
       <link>https://irtezaasadrizvi.github.io/writing</link>
     </image>
     <item>
-      <title>AI-Enabled Web Development: A Practical Field Guide for 2026</title>
+      <title>AI-enabled web development: notes from a year of shipping it</title>
       <link>/writing/ai-enabled-web-development</link>
       <guid isPermaLink="true">/writing/ai-enabled-web-development</guid>
       <pubDate>Fri, 01 May 2026 12:00:00 GMT</pubDate>
       <category>AI</category>
-      <description>What &apos;AI-enabled web development&apos; actually means in 2026 — beyond the hype: LLM agents in your codebase, Claude Code plugins, MCP servers, browser-native ML, and the senior full-stack engineer&apos;s job inside all of it.</description>
+      <description>I&apos;ve been shipping what people are now calling &apos;AI-enabled web development&apos; for about a year - local-first coding agents on top of Ollama, Claude Code plugins, MCP servers wired into real codebases, ONNX models running in the browser. Here&apos;s what&apos;s worked, what hasn&apos;t, and the loops I keep coming back to.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -33,7 +33,7 @@
       <guid isPermaLink="true">https://blog.gopenai.com/from-bytes-to-bpe-a-from-scratch-tour-of-llm-tokenization-a49c70c87c41</guid>
       <pubDate>Fri, 01 May 2026 12:00:00 GMT</pubDate>
       <category>AI</category>
-      <description>Building a tokenizer from the ground up — UTF-8 byte streams, character-level encoding, and Byte-Pair Encoding explained through working code.</description>
+      <description>Building a tokenizer from the ground up - UTF-8 byte streams, character-level encoding, and Byte-Pair Encoding explained through working code.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -42,7 +42,7 @@
       <guid isPermaLink="true">https://irtezaasadrizvi.medium.com/breaking-my-own-spam-classifier-a-hands-on-tour-of-adversarial-examples-efe79ae21ece</guid>
       <pubDate>Wed, 01 Apr 2026 12:00:00 GMT</pubDate>
       <category>AI</category>
-      <description>Training a spam classifier, then systematically breaking it with perturbed inputs — a hands-on walkthrough of adversarial examples in NLP.</description>
+      <description>Training a spam classifier, then systematically breaking it with perturbed inputs - a hands-on walkthrough of adversarial examples in NLP.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -69,7 +69,7 @@
       <guid isPermaLink="true">https://blog.cubed.run/when-your-vps-gets-hacked-how-i-found-a-miner-running-on-our-server-65771b3f532c</guid>
       <pubDate>Mon, 01 Dec 2025 12:00:00 GMT</pubDate>
       <category>Security</category>
-      <description>A security incident report — detection, forensics, and hardening after finding xmrig on a compromised VPS.</description>
+      <description>A security incident report - detection, forensics, and hardening after finding xmrig on a compromised VPS.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -96,7 +96,7 @@
       <guid isPermaLink="true">https://blog.cubed.run/your-digital-keys-why-a-strong-password-is-your-first-line-of-defense-in-the-cyber-world-64c69d46a334</guid>
       <pubDate>Wed, 01 Oct 2025 12:00:00 GMT</pubDate>
       <category>Security</category>
-      <description>Password security fundamentals — brute-force attacks, dictionary attacks, and supplementary measures like 2FA.</description>
+      <description>Password security fundamentals - brute-force attacks, dictionary attacks, and supplementary measures like 2FA.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -105,7 +105,7 @@
       <guid isPermaLink="true">https://blog.cubed.run/inspect-an-iphone-safari-tab-from-your-mac-the-clean-way-26fdc28621e9</guid>
       <pubDate>Wed, 01 Oct 2025 12:00:00 GMT</pubDate>
       <category>Engineering</category>
-      <description>Remote debugging iOS Safari pages using Mac&apos;s Web Inspector — console, elements, network, and breakpoints.</description>
+      <description>Remote debugging iOS Safari pages using Mac&apos;s Web Inspector - console, elements, network, and breakpoints.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -114,7 +114,7 @@
       <guid isPermaLink="true">https://blog.devops.dev/dive-into-v8-how-javascript-gets-supercharged-and-sometimes-slows-down-a21c3f847fa7</guid>
       <pubDate>Fri, 01 Aug 2025 12:00:00 GMT</pubDate>
       <category>Engineering</category>
-      <description>V8 engine internals — parsing, Ignition bytecode, TurboFan compilation, and deoptimization triggers.</description>
+      <description>V8 engine internals - parsing, Ignition bytecode, TurboFan compilation, and deoptimization triggers.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -123,7 +123,7 @@
       <guid isPermaLink="true">https://blog.cubed.run/how-chatgpt-4o-works-a-developers-dive-f-168b69c36090</guid>
       <pubDate>Sun, 01 Jun 2025 12:00:00 GMT</pubDate>
       <category>AI</category>
-      <description>GPT-4o&apos;s multimodal capabilities — native training across text, voice, vision, and real-time latency improvements.</description>
+      <description>GPT-4o&apos;s multimodal capabilities - native training across text, voice, vision, and real-time latency improvements.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -132,7 +132,7 @@
       <guid isPermaLink="true">https://ai.plainenglish.io/how-image-generation-works-in-chatgpt-without-the-magic-wand-2c5c58f2780a</guid>
       <pubDate>Sun, 01 Jun 2025 12:00:00 GMT</pubDate>
       <category>AI</category>
-      <description>Text-to-image mechanics — diffusion models, text encoding, iterative denoising, and current limitations.</description>
+      <description>Text-to-image mechanics - diffusion models, text encoding, iterative denoising, and current limitations.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -150,7 +150,7 @@
       <guid isPermaLink="true">https://irtezaasadrizvi.medium.com/how-i-built-a-funny-chatbot-with-chatgpt-and-node-js-45afbc9442a3</guid>
       <pubDate>Thu, 01 May 2025 12:00:00 GMT</pubDate>
       <category>AI</category>
-      <description>Express.js meets OpenAI API — building a personality-driven chatbot with system prompt engineering.</description>
+      <description>Express.js meets OpenAI API - building a personality-driven chatbot with system prompt engineering.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -159,7 +159,7 @@
       <guid isPermaLink="true">https://blog.devops.dev/play-arcade-on-docker-container-f9794a783d3c</guid>
       <pubDate>Fri, 01 Dec 2023 12:00:00 GMT</pubDate>
       <category>DevOps</category>
-      <description>Running classic arcade games inside a Docker container — a fun intro to containerization and port mapping.</description>
+      <description>Running classic arcade games inside a Docker container - a fun intro to containerization and port mapping.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -168,7 +168,7 @@
       <guid isPermaLink="true">https://blog.devops.dev/all-about-ec2-5ae94e9e453c</guid>
       <pubDate>Wed, 01 Nov 2023 12:00:00 GMT</pubDate>
       <category>DevOps</category>
-      <description>Core EC2 concepts — instance types, AMIs, security groups, and getting started with AWS compute.</description>
+      <description>Core EC2 concepts - instance types, AMIs, security groups, and getting started with AWS compute.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -177,7 +177,7 @@
       <guid isPermaLink="true">https://blog.devops.dev/get-started-with-dockerfile-2ec50dd7e607</guid>
       <pubDate>Tue, 01 Aug 2023 12:00:00 GMT</pubDate>
       <category>DevOps</category>
-      <description>A practical guide to writing Dockerfiles — FROM, RUN, COPY, multi-stage builds, and best practices.</description>
+      <description>A practical guide to writing Dockerfiles - FROM, RUN, COPY, multi-stage builds, and best practices.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -186,7 +186,7 @@
       <guid isPermaLink="true">https://blog.devops.dev/optimize-your-javascript-code-for-seo-b854b3ff0493</guid>
       <pubDate>Sat, 01 Apr 2023 12:00:00 GMT</pubDate>
       <category>Engineering</category>
-      <description>Techniques for making JavaScript-heavy apps search-engine friendly — SSR, lazy loading, and structured data.</description>
+      <description>Techniques for making JavaScript-heavy apps search-engine friendly - SSR, lazy loading, and structured data.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
     <item>
@@ -195,7 +195,7 @@
       <guid isPermaLink="true">https://blog.devops.dev/get-100-pagescore-for-nuxt-application-e8b387b2ddf1</guid>
       <pubDate>Sun, 01 Jan 2023 12:00:00 GMT</pubDate>
       <category>Engineering</category>
-      <description>Achieving a perfect Lighthouse score in Nuxt — image optimization, code splitting, and performance tuning.</description>
+      <description>Achieving a perfect Lighthouse score in Nuxt - image optimization, code splitting, and performance tuning.</description>
       <dc:creator>Irteza Asad Rizvi</dc:creator>
     </item>
   </channel>
