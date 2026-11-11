@@ -9,7 +9,7 @@
     <description>Technical deep-dives on Node.js internals, AI and LLM engineering, adversarial machine learning, DevOps, and web security.</description>
     <language>en-us</language>
     <copyright>© 2026 Irteza Asad Rizvi</copyright>
-    <lastBuildDate>Fri, 01 May 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 12:00:00 GMT</lastBuildDate>
     <managingEditor>noreply@irtezaasadrizvi.github.io (Irteza Asad Rizvi)</managingEditor>
     <webMaster>noreply@irtezaasadrizvi.github.io (Irteza Asad Rizvi)</webMaster>
     <generator>Next.js</generator>
@@ -18,6 +18,15 @@
       <title>Irteza Asad Rizvi - Writing</title>
       <link>https://irtezaasadrizvi.github.io/writing</link>
     </image>
+    <item>
+      <title>Your MCP Server Is Eating Your Context Window</title>
+      <link>/writing/mcp-server-context-window</link>
+      <guid isPermaLink="true">/writing/mcp-server-context-window</guid>
+      <pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
+      <category>AI</category>
+      <description>I connected a handful of MCP servers to my agent, typed &quot;hi&quot;, and paid for tens of thousands of tokens before the model said a word. Nothing was broken. That is just what MCP does by default: every tool from every connected server gets described to the model, in full, on every single turn.</description>
+      <dc:creator>Irteza Asad Rizvi</dc:creator>
+    </item>
     <item>
       <title>AI-enabled web development: notes from a year of shipping it</title>
       <link>/writing/ai-enabled-web-development</link>
